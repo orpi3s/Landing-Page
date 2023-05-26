@@ -34,11 +34,54 @@ background-color: #1F2937;
 
 .navText p {
     font-size: 18px;
+    display: flex;
+    justify-content: left;
+    padding-left: 150px;
 }
 
 .navText img{
  width:540px;
- height:auto;
- display: flex;
- justify-content: end;
+ height:300px;
+ display:inline-flex;
+ /* float:right; */
+ margin: bottom 200px;
+}
+
+/* .sectionTwo  {
+    background-color: white;
+    background-size: auto;
+} */
+
+.sectionTwo div {
+   color: white;
+    display: inline-flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-left: 20px;
+    
+}
+
+.sectionTwo p{
+    color: white;
+     display: inline-flex;
+     margin-top: auto;
+
+     
+ }
+.sectionTwo img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    min-height: auto;
+    border: white 5px;
+    border-style: solid;
+    border-radius: 25px;
+    
+    
+}
+
+.sectionTwo h2 {
+    color: white;
+    text-align: center;
 }
